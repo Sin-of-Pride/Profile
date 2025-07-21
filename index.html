@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Chen - Data Scientist | Anime-Inspired Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">AC</span>
+                <div class="logo-glow"></div>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Powers</a></li>
+                <li><a href="#projects" class="nav-link">Adventures</a></li>
+                <li><a href="#experience" class="nav-link">Quest Log</a></li>
+                <li><a href="#contact" class="nav-link">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <div class="particles"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="greeting">
+                <span class="japanese-text">こんにちは!</span>
+                <span class="greeting-translation">(Hello!)</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="title-line">I'm</span>
+                <span class="title-name">Alex Chen</span>
+            </h1>
+            
+            <p class="hero-subtitle">Data Scientist | Turning Numbers into Stories</p>
+            
+            <div class="hero-cta">
+                <button class="btn btn--primary hero-btn">Explore My Universe</button>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span class="scroll-text">Scroll to Adventure</span>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About My Journey</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="typewriter-container">
+                        <p class="typewriter" id="about-text">I'm a passionate data scientist with a love for anime and cutting-edge technology. I believe that data tells stories as compelling as any anime series, and I specialize in bringing those narratives to life through advanced analytics, machine learning, and stunning visualizations.</p>
+                    </div>
+                    
+                    <div class="philosophy-quote">
+                        <blockquote>
+                            "Data is the ink, algorithms are the brushes, and insights are the masterpiece we create together."
+                        </blockquote>
+                    </div>
+                </div>
+                
+                <div class="about-cards">
+                    <div class="info-card card--animated">
+                        <div class="card-icon">🎓</div>
+                        <div class="card-content">
+                            <h3>Education Quest</h3>
+                            <p>Master's in Data Science<br>University of Tokyo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card card--animated">
+                        <div class="card-icon">🌸</div>
+                        <div class="card-content">
+                            <h3>Current Location</h3>
+                            <p>Tokyo, Japan<br>Land of Innovation</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card card--animated">
+                        <div class="card-icon">⚡</div>
+                        <div class="card-content">
+                            <h3>Status</h3>
+                            <p>Available for new<br>exciting opportunities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Arsenal Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">My Technical Powers</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Arsenal</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar" data-skill="95">
+                            <div class="skill-info">
+                                <span class="skill-name">🐍 Python</span>
+                                <span class="skill-level">95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-bar" data-skill="88">
+                            <div class="skill-info">
+                                <span class="skill-name">📊 R</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-bar" data-skill="92">
+                            <div class="skill-info">
+                                <span class="skill-name">🗄️ SQL</span>
+                                <span class="skill-level">92%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-bar" data-skill="78">
+                            <div class="skill-info">
+                                <span class="skill-name">☕ Java</span>
+                                <span class="skill-level">78%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Data Tools Mastery</h3>
+                    <div class="skill-bubbles">
+                        <div class="skill-bubble" data-skill="94">Pandas</div>
+                        <div class="skill-bubble" data-skill="91">NumPy</div>
+                        <div class="skill-bubble" data-skill="89">Scikit-learn</div>
+                        <div class="skill-bubble" data-skill="86">TensorFlow</div>
+                        <div class="skill-bubble" data-skill="83">PyTorch</div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Machine Learning Powers</h3>
+                    <div class="ml-skills">
+                        <div class="ml-card" data-skill="92">
+                            <div class="ml-card-inner">
+                                <div class="ml-card-front">
+                                    <h4>Classification</h4>
+                                </div>
+                                <div class="ml-card-back">
+                                    <span class="ml-level">92%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="ml-card" data-skill="90">
+                            <div class="ml-card-inner">
+                                <div class="ml-card-front">
+                                    <h4>Regression</h4>
+                                </div>
+                                <div class="ml-card-back">
+                                    <span class="ml-level">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="ml-card" data-skill="87">
+                            <div class="ml-card-inner">
+                                <div class="ml-card-front">
+                                    <h4>Deep Learning</h4>
+                                </div>
+                                <div class="ml-card-back">
+                                    <span class="ml-level">87%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="ml-card" data-skill="84">
+                            <div class="ml-card-inner">
+                                <div class="ml-card-front">
+                                    <h4>NLP</h4>
+                                </div>
+                                <div class="ml-card-back">
+                                    <span class="ml-level">84%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Showcase Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Data Adventures</h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Quests</button>
+                <button class="filter-btn" data-filter="Machine Learning">ML Adventures</button>
+                <button class="filter-btn" data-filter="Analytics">Analytics</button>
+                <button class="filter-btn" data-filter="Deep Learning">Deep Learning</button>
+                <button class="filter-btn" data-filter="Visualization">Visualization</button>
+            </div>
+            
+            <div class="projects-grid" id="projects-grid">
+                <div class="project-card" data-category="Machine Learning">
+                    <div class="project-card-inner">
+                        <div class="project-header">
+                            <h3 class="project-title">Anime Recommendation Engine</h3>
+                            <div class="project-impact">94% Accuracy Achieved</div>
+                        </div>
+                        <p class="project-description">Built a deep learning system that recommends anime based on viewing patterns, achieving 94% accuracy in user preference prediction.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Collaborative Filtering</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <div class="project-result">Improved user engagement by 67%</div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="Analytics">
+                    <div class="project-card-inner">
+                        <div class="project-header">
+                            <h3 class="project-title">Tokyo Traffic Flow Analysis</h3>
+                            <div class="project-impact">23% Congestion Reduced</div>
+                        </div>
+                        <p class="project-description">Analyzed real-time traffic data across Tokyo's metropolitan area using advanced time series forecasting and geospatial analytics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">LSTM</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-result">Reduced traffic congestion by 23%</div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="Deep Learning">
+                    <div class="project-card-inner">
+                        <div class="project-header">
+                            <h3 class="project-title">Cryptocurrency Price Predictor</h3>
+                            <div class="project-impact">78% Prediction Accuracy</div>
+                        </div>
+                        <p class="project-description">Developed a multi-modal deep learning model combining technical indicators with sentiment analysis from social media to predict crypto prices.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Twitter API</span>
+                        </div>
+                        <div class="project-result">Achieved 78% prediction accuracy</div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="Visualization">
+                    <div class="project-card-inner">
+                        <div class="project-header">
+                            <h3 class="project-title">Healthcare Dashboard</h3>
+                            <div class="project-impact">31% Resource Optimization</div>
+                        </div>
+                        <p class="project-description">Created an interactive dashboard for hospital administrators to monitor patient flow, resource utilization, and treatment outcomes in real-time.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Plotly Dash</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Statistics</span>
+                        </div>
+                        <div class="project-result">Improved resource allocation by 31%</div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="Machine Learning">
+                    <div class="project-card-inner">
+                        <div class="project-header">
+                            <h3 class="project-title">E-commerce Fraud Detection</h3>
+                            <div class="project-impact">$2.3M Fraud Prevented</div>
+                        </div>
+                        <p class="project-description">Built an ensemble machine learning system to detect fraudulent transactions with minimal false positives using advanced feature engineering.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">Feature Engineering</span>
+                            <span class="tech-tag">Imbalanced Learning</span>
+                        </div>
+                        <div class="project-result">Prevented $2.3M in fraudulent transactions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Journey Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title">Professional Quest Log</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-glow"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3 class="experience-title">Senior Data Scientist</h3>
+                                <div class="experience-company">TechnoVision AI</div>
+                                <div class="experience-duration">2022 - Present</div>
+                                <div class="experience-location">Tokyo, Japan</div>
+                            </div>
+                            <ul class="experience-achievements">
+                                <li>Led a team of 5 data scientists in developing next-gen recommendation systems</li>
+                                <li>Increased model performance by 45% through innovative ensemble techniques</li>
+                                <li>Mentored junior team members and established ML best practices</li>
+                                <li>Collaborated with product teams to deploy 12 production ML models</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-glow"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3 class="experience-title">Data Scientist</h3>
+                                <div class="experience-company">DataFlow Solutions</div>
+                                <div class="experience-duration">2020 - 2022</div>
+                                <div class="experience-location">Osaka, Japan</div>
+                            </div>
+                            <ul class="experience-achievements">
+                                <li>Developed predictive analytics models for client forecasting needs</li>
+                                <li>Created automated data pipelines processing 10TB+ daily</li>
+                                <li>Improved client retention through data-driven insights by 28%</li>
+                                <li>Built comprehensive A/B testing framework for product optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <div class="marker-glow"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3 class="experience-title">Junior Data Analyst</h3>
+                                <div class="experience-company">Analytics Plus</div>
+                                <div class="experience-duration">2019 - 2020</div>
+                                <div class="experience-location">Tokyo, Japan</div>
+                            </div>
+                            <ul class="experience-achievements">
+                                <li>Performed statistical analysis on customer behavior datasets</li>
+                                <li>Created interactive dashboards using Tableau and Power BI</li>
+                                <li>Optimized SQL queries resulting in 60% faster report generation</li>
+                                <li>Supported business intelligence initiatives across multiple departments</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Let's Connect!</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>alex.chen@dataquest.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">🌸</div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Tokyo, Japan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon status-indicator">⚡</div>
+                        <div class="contact-details">
+                            <h3>Status</h3>
+                            <p>Available for new opportunities</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control anime-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control anime-input" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control anime-input" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary contact-btn">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="social-links">
+                <a href="#" class="social-link" target="_blank">
+                    <div class="social-icon">💼</div>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="#" class="social-link" target="_blank">
+                    <div class="social-icon">🐙</div>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" class="social-link" target="_blank">
+                    <div class="social-icon">🐦</div>
+                    <span>Twitter</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
